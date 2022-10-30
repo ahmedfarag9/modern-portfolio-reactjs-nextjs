@@ -22,6 +22,20 @@ export default function Header({}: Props) {
             transition={{
                 duration: 1.5
             }}
+            className='flex flex-row items-center'>
+            {/* { Social Icons }     */}
+            <SocialIcon url="https://www.youtube.com" 
+            fgColor='gray'
+            bgColor='transparent'
+            />
+            <SocialIcon url="https://www.youtube.com" 
+            fgColor='gray'
+            bgColor='transparent'
+            />
+            <SocialIcon url="https://www.youtube.com" 
+            fgColor='gray'
+            bgColor='transparent'
+            />                        
         </motion.div>
 
         <motion.div 
