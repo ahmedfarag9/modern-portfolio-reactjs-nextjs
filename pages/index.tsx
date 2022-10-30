@@ -14,7 +14,7 @@ export default function Home() {
 
 
       {/* Hero */}
-
+ 
       <section id="hero" className='snap-center'>
         <Hero/>
       </section>
@@ -29,6 +29,6 @@ export default function Home() {
 
       {/* Contact Me */}
 
-    </div>
+     </div>
   )
 }
