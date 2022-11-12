@@ -19,6 +19,12 @@ function Projects({}: Props) {
           Projects
       </h3>
 
+      <div className='relative w-full flex overflow-scroll overflow-y-hidden snap-x snap-mandatory
+      z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80
+      '>
+        {projects.map((project, i) => (
+          <div className='w-screen flex-shrink-0 snap-center flex-col space-y-5 items-center
+          justify-center p-20 md:p-44 h-screen'>
               <p className='text-lg text-center md:text-left'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
