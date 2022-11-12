@@ -23,7 +23,9 @@ export default function Home() {
         <Hero/>
       </section>
 
-      {/* Hero */}
+      <section id="about" className='snap-center'>
+        <About/>
+      </section>
  
       <section id="hero" className='snap-center'>
         <Hero/>
