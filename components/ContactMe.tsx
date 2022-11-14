@@ -54,6 +54,15 @@ function ContactMe({}: Props) {
                 </div>
 
             </div>
+
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
+                <div className='flex space-x-2'>
+                </div>
+
+                <input {...register('subject')} placeholder='Subject' className='contactInput' type="text" />
+                
+                <textarea {...register('message')} placeholder='Message' className='contactInput'/>
+            </form>
         </div>
 
 
