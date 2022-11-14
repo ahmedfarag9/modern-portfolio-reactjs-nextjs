@@ -27,6 +27,14 @@ export default function ExperienceCard({}: Props) {
             <div className='px-0 md:px-10'>
                 <h4 className='uppercase text-4xl font-light'>IT Specialist</h4>
                 <p className='uppercase font-bold text-2xl mt-1'>The Egyptian Armed Forces</p>
+                <p className='uppercase py-5 text-gray-300'>Started work.. - Ended..</p>
+                <ul className='list-disc space-y-4 text-lg'>
+                    <li>Summary points Summary points Summary points</li>
+                    <li>Summary points Summary points Summary points</li>
+                    <li>Summary points Summary points Summary points</li>
+                    <li>Summary points Summary points Summary points</li>
+                    <li>Summary points Summary points Summary points</li>
+                </ul>
             </div>
         </article>
     )
