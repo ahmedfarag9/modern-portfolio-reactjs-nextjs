@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import About from '../components/About'
 import ContactMe from '../components/ContactMe'
 import Header from '../components/Header'
@@ -26,11 +27,11 @@ export default function Home() {
       <section id="about" className='snap-center'>
         <About/>
       </section>
- 
+
       <section id="experience" className='snap-center'>
         <WorkExperience/>
       </section>
-
+      
 
       <section id="skills" className='snap-start'>
         <Skills/>
@@ -56,6 +57,6 @@ export default function Home() {
         </footer>
       </Link>
 
-     </div>
+    </div>
   )
 }
