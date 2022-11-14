@@ -5,6 +5,14 @@ import { useForm, SubmitHandler } from "react-hook-form";
 
 type Props = {}
 
+type Inputs = {
+    name: string,
+    email: string,
+    subject: string,
+    message: string,
+};
+
+
 function ContactMe({}: Props) {
 
   return (
