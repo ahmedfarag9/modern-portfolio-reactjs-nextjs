@@ -8,7 +8,6 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 
-
 export default function Home() {
   return (
     <div className='bg-[#363636] text-white h-screen snap-y snap-mandatory
@@ -32,7 +31,6 @@ export default function Home() {
         <WorkExperience/>
       </section>
       
-
       <section id="skills" className='snap-start'>
         <Skills/>
       </section>
