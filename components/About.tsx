@@ -28,11 +28,12 @@ function About({}: Props) {
         }}
         whileInView={{opacity: 1, x: 0}}
         viewport={{once: true}}
-        src='https://www.kibrispdr.org/data/30/clip-art-men-1.jpg'
+        // src='https://www.kibrispdr.org/data/30/clip-art-men-1.jpg'
+        src='https://st4.depositphotos.com/21230196/23977/v/450/depositphotos_239776244-stock-illustration-specialist-icon-vector-white-background.jpg'      
         alt='user picture'
-        className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56
-        rounded-full object-cover md:rounded-lg md:w-64 md:h-95
-        xl:w-[500px] xl:h-[600px] mt-20 '
+        className='mt-24 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
+        rounded-full object-cover md:rounded-lg 
+        xl:w-[400px] xl:h-[400px] '
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
