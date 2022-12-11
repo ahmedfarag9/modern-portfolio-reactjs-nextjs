@@ -2,6 +2,7 @@ import React from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import Projects from './Projects'
 import { useForm, SubmitHandler } from "react-hook-form";
+import Link from 'next/link'
 
 type Props = {}
 
@@ -29,9 +30,9 @@ function ContactMe({}: Props) {
         
             <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500
             text-2xl '>
-            Contact
-        </h3>
-
+                Contact
+            </h3>
+        
         <div className='flex flex-col space-y-6 '>
             {/* <h4 className='text-4xl font-semibold text-center'>
                 I have got just what you need.{" "}
@@ -56,14 +57,16 @@ function ContactMe({}: Props) {
 
             </div>
 
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
-                <div className='flex space-x-2'>
+
+
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-1 w-fit mx-auto '>
+                <div className='flex space-x-1'>
                     <input {...register('name')}
-                    placeholder='Name'
+                    placeholder=' Name'
                     className='contactInput' type="text"
                     />
                     <input {...register('email')}
-                    placeholder='Email'
+                    placeholder=' Email'
                     className='contactInput' type="email"
                     />
                 </div>
@@ -78,7 +81,7 @@ function ContactMe({}: Props) {
                     Submit
                 </button>
             </form>
-        </div>
+            </div>
 
 
 
