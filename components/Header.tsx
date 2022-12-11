@@ -23,15 +23,15 @@ export default function Header({}: Props) {
                 duration: 1.5
             }}
             className='flex flex-row items-center'>
-            <SocialIcon url="https://www.youtube.com" 
+            <SocialIcon url="https://www.github.com" 
             fgColor='gray'
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.youtube.com" 
+            <SocialIcon url="https://www.twitter.com" 
             fgColor='gray'
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.youtube.com" 
+            <SocialIcon url="https://www.linkedin.com" 
             fgColor='gray'
             bgColor='transparent'
             />                        
