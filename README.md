@@ -17,6 +17,4 @@ A **Modern Portfolio** Built with REACT.JS &amp; NEXT.JS.
 
 ---
 
-## Hello World!
-
-Live Demo -- >
+## Live Demo -- >
