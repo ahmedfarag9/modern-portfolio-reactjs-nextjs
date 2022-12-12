@@ -143,5 +143,40 @@
     }
   }
 
+  @media (min-width: 700px) {
+    .card {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+
+    .card:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  @media (min-width: 1100px) {
+    .card {
+      flex-basis: calc(25% - 30px);
+    }
+
+    .card:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  /* FOOTER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .page-footer {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+  }
+
+  .page-footer a {
+    display: flex;
+    margin-left: 4px;
   }
 }
