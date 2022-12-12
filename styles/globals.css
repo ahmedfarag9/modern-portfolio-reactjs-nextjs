@@ -78,5 +78,29 @@
     scroll-snap-align: start;
     transition: all 0.2s;
   }
+
+  .card:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .card:hover {
+    color: var(--white);
+    background: var(--skyblue);
+  }
+
+  .card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .card .card-content {
+    margin:10px 0;
+    max-width: 85%;
+  }
+
+  .card .card-link-wrapper {
+    margin-top: auto;
+  }
+
   }
 }
