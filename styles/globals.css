@@ -102,5 +102,27 @@
     margin-top: auto;
   }
 
+  .card .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: var(--yellow);
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+
+  .card:hover .card-link {
+    background: var(--darkred);
+  }
+
+  .cards::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
   }
 }
