@@ -15,5 +15,24 @@
     focus:text-[#d2d257] hover:border-[#d2d257];
   }
 
+  .contactInput2 {
+    @apply outline-none bg-slate-400/10 rounded-sm border-b py-3 px-0 w-full
+    border-[#242424] text-gray-500 placeholder-gray-500 transition-all
+    focus:text-[#d2d257] hover:border-[#d2d257];
+  }
+
+  :root {
+    --red: #ef233c;
+    --darkred: #c00424;
+    --platinum: #e5e5e5;
+    --black: #2b2d42;
+    --white: #fff;
+    --thumb: #edf2f4;
+    --yellow: #f7ab0a;
+    --blue: #1f5d7a;
+    --skyblue: #2093c8;
+    --lightyellow: #dddd4d;
+  }
+
   }
 }
