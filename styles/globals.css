@@ -124,5 +124,24 @@
   .cards::-webkit-scrollbar-track {
     border-radius: 92px;
   }
+
+  .cards::-webkit-scrollbar-thumb {
+    background: var(--yellow);
+  }
+
+  .cards::-webkit-scrollbar-track {
+    background: var(--thumb);
+  }
+
+  @media (min-width: 500px) {
+    .card {
+      flex-basis: calc(50% - 10px);
+    }
+
+    .card:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
   }
 }
