@@ -8,7 +8,6 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 
-
 export default function Home() {
   return (
     <div className='bg-[#363636] text-white h-screen snap-y snap-mandatory
@@ -32,7 +31,6 @@ export default function Home() {
         <WorkExperience/>
       </section>
       
-
       <section id="skills" className='snap-start'>
         <Skills/>
       </section>
@@ -45,13 +43,14 @@ export default function Home() {
         <ContactMe/>
       </section>
 
+      
       <Link
       href='#hero'>
-        <footer className='sticky bottom-5 w-full cursor-pointer' >
+        <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full cursor-pointer pr-10' >
           <div className='flex items-center justify-center'>
             <img
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
-            cursor-pointer'
+            cursor-pointer '
             src="https://st4.depositphotos.com/21230196/23977/v/450/depositphotos_239776244-stock-illustration-specialist-icon-vector-white-background.jpg" alt="" />
           </div>
         </footer>

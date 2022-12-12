@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import Link from 'next/link'
 
 type Props = {}
 
@@ -8,48 +9,94 @@ function Projects({}: Props) {
   const projects = [1, 2, 3, 4, 5];
 
   return (
-    <motion.div
-    initial={{ opacity: 0 }}
-    transition={{ duration: 1.5 }}
-    whileInView={{opacity: 1}}
-    className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row
-    max-w-full justify-evenly mx-auto items-center z-0'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500
+<div className="h-screen relative flex overflow-hidden flex-col text-left
+    max-w-full justify-evenly mx-auto items-center z-0 pr-3">
+
+  <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500
       text-2xl'>
         Projects
-      </h3>
+  </h3>
 
-      <div className='relative w-full flex overflow-scroll overflow-y-hidden snap-x snap-mandatory
-      z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80
-      '>
-        {projects.map((project, i) => (
-          <div key={i} className='w-screen flex-shrink-0 snap-center flex-col space-y-5 items-center
-          justify-center p-20 md:p-44 h-screen'>
-          <motion.img
-            initial={{ y: -300, opacity: 0 }}
-            transition={{ duration: 1.2 }}
-            whileInView={{opacity: 1, y: 0}}
-            viewport={{ once: true }}
-            src="https://st4.depositphotos.com/21230196/23977/v/450/depositphotos_239776244-stock-illustration-specialist-icon-vector-white-background.jpg"
-            alt="" 
-            />
-            <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-              <h4 className='text-4xl font-semibold text-center'>
-                <span className='underline decoration-[#F&AB01]/50'> Case Study {i+1} of {projects.length}:</span>   UPS clone
-              </h4>
+  <div className='container'>
 
-              <p className='text-lg text-center md:text-left'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-        ))}
+  <ul className="cards">
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 1</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt=""/>
+        <div className="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
       </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 2</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae magnam harum natus fuga et repellat in maiores.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 3</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Phasellus ultrices lorem vel bibendum ultricies. In hendrerit nulla a ante dapibus pulvinar eu eget quam.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 4</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Aenean posuere mauris quam, pellentesque auctor mi bibendum nec. Sed scelerisque lacus nisi, quis auctor lorem ornare vel.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 5</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Vestibulum pharetra fringilla felis sit amet tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et arcu sit amet est consequat feugiat. Nam ut sapien pulvinar.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 6</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Donec ut tincidunt nisl. Vivamus eget eros id elit feugiat mollis. Nam sed sem quis libero finibus tempor.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
 
-      <div className='w-full absolute top-[30%] bg-[#F7AB01]/10 left-0 h-[500px]
-      -skew-y-12 '/>
-    </motion.div>
+  </ul>
+  
+</div>
+</div>
   )
 }
 
