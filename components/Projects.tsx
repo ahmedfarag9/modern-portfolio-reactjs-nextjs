@@ -45,12 +45,28 @@ function Projects({}: Props) {
       </div>
     </li>
           </div>
-        ))}
       </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 6</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Donec ut tincidunt nisl. Vivamus eget eros id elit feugiat mollis. Nam sed sem quis libero finibus tempor.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
 
-      <div className='w-full absolute top-[30%] bg-[#F7AB01]/10 left-0 h-[500px]
-      -skew-y-12 '/>
-    </motion.div>
+  </ul>
+  
+</div>
+</div>
   )
 }
 
