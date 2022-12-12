@@ -32,7 +32,18 @@ function Projects({}: Props) {
         <a href="" className="card-link">Read More</a>
       </div>
     </li>
+    <li className="card">
+      <div>
+        <h3 className="card-title">Project 2</h3>
+        <img src="https://cdn.pixabay.com/photo/2019/01/17/19/11/login-3938432_960_720.jpg" alt="" />
+        <div className="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae magnam harum natus fuga et repellat in maiores.</p>
+        </div>
             </div>
+      <div className="card-link-wrapper">
+        <a href="" className="card-link">Read More</a>
+      </div>
+    </li>
           </div>
         ))}
       </div>
