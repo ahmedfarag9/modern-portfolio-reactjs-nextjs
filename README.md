@@ -21,7 +21,7 @@ A **Modern Portfolio** Built with REACT.JS &amp; NEXT.JS.
 
 ## Preview
 
-![](public/finalProduct.png)
+## <img src="public/finalProduct.png" width="550" height="270"/>
 
 ---
 
