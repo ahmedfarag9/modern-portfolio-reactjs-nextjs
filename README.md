@@ -27,6 +27,6 @@ A **Modern Portfolio** Built with REACT.JS &amp; NEXT.JS.
 
 ## Live Demo -- > [ahmedfarag9.github.io](https://ahmedfarag9.github.io)
 
----
-
+<!--
 ### Design inspired by [Sonny Sangha](https://www.youtube.com/user/ssangha32)
+-->
