@@ -17,16 +17,6 @@ A **Modern Portfolio** Built with REACT.JS &amp; NEXT.JS.
 | [GitHub Pages](https://pages.github.com/)             | Hosting service                                                                        |
 | [GitHub Actions](https://github.com/features/actions) | (CI/CD) platform                                                                       |
 
----
-
-## Preview
-
-## <img src="public/finalProduct.png" width="550" height="270"/>
-
----
-
-## Live Demo -- > [ahmedfarag9.github.io](https://ahmedfarag9.github.io)
-
 <!--
 ### Design inspired by [Sonny Sangha](https://www.youtube.com/user/ssangha32)
 -->
